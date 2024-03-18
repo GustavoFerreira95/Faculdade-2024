@@ -33,14 +33,14 @@ public class exercicio10 {
 	        double percentualBranco = ((double) votosBranco / totalEleitores) * 100;
 
 	        
-	        System.out.println("\nResultados da eleição:");
+	        System.out.println("Resultados da eleição:");
 	        System.out.println("Total de eleitores: " + totalEleitores);
-	        System.out.printf("Percentual de votos válidos em relação ao total de eleitores: %.2f%%\n", percentualVotosValidos);
-	        System.out.printf("Percentual de votos válidos do candidato A: %.2f%%\n", percentualA);
-	        System.out.printf("Percentual de votos válidos do candidato B: %.2f%%\n", percentualB);
-	        System.out.printf("Percentual de votos válidos do candidato C: %.2f%%\n", percentualC);
-	        System.out.printf("Percentual de votos nulos: %.2f%%\n", percentualNulos);
-	        System.out.printf("Percentual de votos em branco: %.2f%%\n", percentualBranco);
+	        System.out.printf("Percentual de votos válidos em relação ao total de eleitores: ", percentualVotosValidos);
+	        System.out.printf("Percentual de votos válidos do candidato A: ", percentualA);
+	        System.out.printf("Percentual de votos válidos do candidato B: ", percentualB);
+	        System.out.printf("Percentual de votos válidos do candidato C: ", percentualC);
+	        System.out.printf("Percentual de votos nulos: ", percentualNulos);
+	        System.out.printf("Percentual de votos em branco: ", percentualBranco);
 	
 	        scanner.close();
 		}
