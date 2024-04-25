@@ -7,7 +7,7 @@ public class Exercicio03 {
 	        System.out.println("Digite um número:");
 	        int numero = scanner.nextInt();
 	        System.out.println(verificarNumero(numero));
-	        scanner.close(); // Fechando o scanner
+	        scanner.close();
 	    }
 
 	    public static String verificarNumero(int numero) {
