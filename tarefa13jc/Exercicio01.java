@@ -9,7 +9,7 @@ public class Exercicio01 {
         System.out.println("Digite um número:");
         int numero = scanner.nextInt();
         System.out.println(ePar(numero) ? "O número é par" : "O número é ímpar");
-        scanner.close(); // Fechando o scanner
+        scanner.close();
     }
 
     public static boolean ePar(int numero) {
